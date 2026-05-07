@@ -14,12 +14,15 @@ El proyecto analiza, con herramientas de datos, los niveles de radiación en pac
 ## Contexto del Patient Journey
 
 **Post alta o post tratamiento:**¿qué pasa con los niveles de radiación en pacientes que recibieron quimioterapia después del tratamiento?
+
 **Pregunta clínica:** Determinar si los pacientes que han recibido radioterapia requieren un seguimiento clínico más intensivo o personalizado, en función de la dosis acumulada y el riesgo de desarrollar efectos biológicos tardíos, con el fin de intervenir de manera temprana y prevenir complicaciones a largo plazo.
 
 ¿Existe una relación estadísticamente significativa entre la dosis acumulada de radioterapia recibida por pacientes oncológicos y la presencia de niveles detectables de radiación o efectos biológicos posteriores al tratamiento durante el seguimiento clínico? 
 
 **¿Que es lo que informa el modelo de datos?:** El modelo de datos tras su analisis determina cual es la probabilidad de que el paciente pueda recaer en tener cáncer debido a los niveles residuales de radiación en su cuerpo. En base a esto lo clasifica para indicarle al usuario que tan frecuentemente deberia de ir al hospital este paciente por chequeos medicos. Este modelo en ningun modo pretende reemplazar el criterio médico, más ayudar al doctor a tener en la periferia los casos más delicados, con la mayor probabilidad de recaer.
+
 **Dataset:** Para alimentar este modelo de datos se utilizo la base de datos **NOMBRE DE LA BASE DE DATOS**. Esta base de datos incluye
+
 ## Resultados
 
 | Métrica | Valor |
