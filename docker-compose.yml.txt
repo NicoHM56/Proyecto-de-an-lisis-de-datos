@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  # Base de Datos PostgreSQL
+  db_radioterapia:
+    image: postgres:15
+    container_name: db_uvg_radioterapia
+    restart: always
+    environment:
+      POSTGRES_USER: ivon_user
+      POSTGRES_PASSWORD: uvg_password
+      POSTGRES_DB: omop_radioterapia
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Laboratorio de Análisis en Jupyter
+  jupyter_laboratorio:
+    image: jupyter/datascience-notebook:latest
+    container_name: jupyter_uvg_analisis
+    restart: always
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_TOKEN: uvg_2026
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    depends_on:
+      - db_radioterapia
+
+volumes:
+  postgres_data:

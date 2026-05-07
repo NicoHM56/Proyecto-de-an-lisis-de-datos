@@ -1,0 +1,9 @@
+sqlalchemy
+pandas
+psycopg2-binary
+scipy
+scikit-learn
+lifelines
+matplotlib
+seaborn
+numpy
