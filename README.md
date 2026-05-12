@@ -21,7 +21,7 @@ El proyecto analiza, con herramientas de datos, los niveles de radiación en pac
 
 **¿Que es lo que informa el modelo de datos?:** El modelo de datos tras su analisis determina cual es la probabilidad de que el paciente pueda recaer en tener cáncer debido a los niveles residuales de radiación en su cuerpo. En base a esto lo clasifica para indicarle al usuario que tan frecuentemente deberia de ir al hospital este paciente por chequeos medicos. Este modelo en ningun modo pretende reemplazar el criterio médico, más ayudar al doctor a tener en la periferia los casos más delicados, con la mayor probabilidad de recaer.
 
-**Dataset:** Para alimentar este modelo de datos se utilizo la base de datos **NOMBRE DE LA BASE DE DATOS**. Esta base de datos incluye
+**Dataset:** Para alimentar este modelo de datos se utilizo la base de datos **CCSS: Childhood Cancer Survivor Study**. Esta base de datos se enfoca en niños que sobrevivieron al cancer, lo que hace su base de datos ideal para este modelo que se plantea puesto que en niños hay más tiempo para que se presenten compplicaciones por acumulación de radiación. Especialmente si el cáncer regresa cuando el tratamiento no fue 100% efectivo. En este caso la acumulación es doble si logran vencer el cáncer nuevamente. 
 
 ## Resultados
 
